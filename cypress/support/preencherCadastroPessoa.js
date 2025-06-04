@@ -91,7 +91,6 @@ Cypress.Commands.add('preencherCadastroPessoa', () => {
   cy.get(`#${campos.observacao}`).should('be.visible').wait(tempoDeCampo).type(valores.observacao);
 
   //ENDEREÇO
-
   cy.get(`#${campos.cep}`).should('be.visible').wait(tempoDeCampo).type(valores.cep);
   cy.wait(1000); 
   //cy.get(`#${campos.endereco}`).should('be.visible').wait(tempoDeCampo).type(valores.endereco);
