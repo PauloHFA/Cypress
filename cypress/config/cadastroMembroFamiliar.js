@@ -67,7 +67,7 @@ export const cadastroMembroFamiliar = {
             apoioredeprimaria: "P13_FL_APOIO_REDE_PRIMARIA", 
         }  
     },
-    valoresMembro: {
+    valores: {
         nomecompleto: "Lucas Pereira",
         labeltitular: "Não",
         possuinomesocial: "Sim",
